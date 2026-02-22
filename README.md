@@ -9,44 +9,6 @@ This project demonstrates the internal mechanics of GPT-style models, including 
 
 MiniLLM learns to model:
 
-𝑃
-(
-𝑥
-𝑡
-∣
-𝑥
-1
-,
-𝑥
-2
-,
-.
-.
-.
-,
-𝑥
-𝑡
-−
-1
-)
-P(x
-t
-	​
-
-∣x
-1
-	​
-
-,x
-2
-	​
-
-,...,x
-t−1
-	​
-
-)
-
 It predicts the next character given previous context using a Transformer architecture.
 
 The model was trained on a Shakespeare corpus and generates structured dialogue-style text.
@@ -230,3 +192,4 @@ Transformer Architectures
 PyTorch Internals
 
 Generative AI Systems
+
